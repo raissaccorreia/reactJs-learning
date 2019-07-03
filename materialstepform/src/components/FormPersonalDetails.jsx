@@ -22,22 +22,22 @@ export class FormPersonalDetails extends Component {
                     <TextField
                         hintText="Enter your first name"
                         floatingLabelText="First Name" 
-                        onChange={handleChange('First Name')}
-                        defaultValue={values.firstName}
+                        onChange={handleChange('firstName')}
+                        value={values.firstName}
                     />
                     <br />
                     <TextField
                         hintText="Enter your last name"
                         floatingLabelText="Last Name" 
-                        onChange={handleChange('Last Name')}
-                        defaultValue={values.lastName}
+                        onChange={handleChange('lastName')}
+                        value={values.lastName}
                     />
                     <br />
                     <TextField
                         hintText="Enter your Email"
                         floatingLabelText="Email" 
-                        onChange={handleChange('Email')}
-                        defaultValue={values.email}
+                        onChange={handleChange('email')}
+                        value={values.email}
                     />
                     <br />
                     <RaisedButton

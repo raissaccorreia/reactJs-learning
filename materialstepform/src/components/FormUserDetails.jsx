@@ -19,22 +19,22 @@ export class FormUserDetails extends Component {
                     <TextField
                         hintText="Enter your occupation"
                         floatingLabelText="Occupation" 
-                        onChange={handleChange('Occupation')}
-                        defaultValue={values.occupation}
+                        onChange={handleChange('occupation')}
+                        value={values.occupation}
                     />
                     <br />
                     <TextField
                         hintText="Enter your city"
                         floatingLabelText="City" 
-                        onChange={handleChange('City')}
-                        defaultValue={values.city}
+                        onChange={handleChange('city')}
+                        value={values.city}
                     />
                     <br />
                     <TextField
                         hintText="Enter your Bio"
                         floatingLabelText="Bio" 
-                        onChange={handleChange('Bio')}
-                        defaultValue={values.bio}
+                        onChange={handleChange('bio')}
+                        value={values.bio}
                     />
                     <br />
                     <RaisedButton
